@@ -8,7 +8,7 @@ jobs:
       - name: ttt
         run: |
           echo "hello world"
-          apt --help
+          apt install git
       - name: tttt
         run: |
           echo "2"
