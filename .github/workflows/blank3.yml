@@ -11,5 +11,5 @@ jobs:
           #apt install git
       - name: step2
         run: |
-          sudo whoami
+          sudo id
           
