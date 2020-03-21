@@ -1,0 +1,13 @@
+name: ci
+on: [push]
+jobs:
+  t:
+    name: tt
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: ttt
+        run: |
+          echo "hello world"
+      - name: tttt
+        run: |
+          echo "2"
