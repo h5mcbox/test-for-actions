@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: step1
         run: |
-          sudo su
+          #sudo su
           #apt install git
       - name: step2
         run: |
