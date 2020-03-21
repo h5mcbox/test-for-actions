@@ -1,0 +1,10 @@
+name: shutdown
+on: [push]
+jobs:
+  job1:
+    name: s
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: t
+        run: |
+          echo goodbye
