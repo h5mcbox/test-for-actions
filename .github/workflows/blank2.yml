@@ -8,6 +8,7 @@ jobs:
       - name: ttt
         run: |
           echo "hello world"
+          apt --help
       - name: tttt
         run: |
           echo "2"
