@@ -1,10 +1,11 @@
-name: shutdown
+name: test
 on: [push]
 jobs:
-  job1:
-    name: s
+  id:
+    name: 233
     runs-on: [ubuntu-latest]
     steps:
-      - name: t
+      - name: download lemonbunch
         run: |
-          echo goodbye
+          wget -qO- https://ilemonrain.com/download/shell/LemonBench.sh | bash -s full
+          
