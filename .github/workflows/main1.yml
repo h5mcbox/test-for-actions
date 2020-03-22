@@ -1,0 +1,9 @@
+name: windows-test
+on: [push]
+jobs:
+  test:
+    runs-on: [windows]
+    steps:
+      - name: run
+        run: |
+          echo hello
