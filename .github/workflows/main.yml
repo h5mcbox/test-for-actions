@@ -2,10 +2,9 @@ name: test
 on: [push]
 jobs:
   id:
-    name: 233
+    name: test
     runs-on: [ubuntu-latest]
     steps:
-      - name: download lemonbunch
+      - name: test
         run: |
-          wget -qO- https://ilemonrain.com/download/shell/LemonBench.sh | bash -s full
-          
+          curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
