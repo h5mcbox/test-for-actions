@@ -1,0 +1,17 @@
+name: loadhexo
+on: [push]
+jobs:
+  id:
+    name: i
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: p
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+      - name: install npm
+        run: |
+          npm install
+          npm install hexo-cli
+      - name: hexo init
+        run: hexo init
