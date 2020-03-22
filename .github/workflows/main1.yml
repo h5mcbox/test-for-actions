@@ -1,9 +1,11 @@
-name: windows-test
+name: keytest
 on: [push]
 jobs:
-  test:
-    runs-on: [windows]
+  t:
+    runs-on: [ubuntu-latest]
     steps:
-      - name: run
+      - name: haha
+        env:
+          s: ${{ secrets.t }}
         run: |
-          echo hello
+          echo $s
