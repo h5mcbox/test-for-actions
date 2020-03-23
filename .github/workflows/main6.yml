@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: tst
         run: |
-          systeminfo
-          ipconfig
-          ping maker.ifttt.com
+          curl maker.ifttt.com >test
+          type test
+          exit /b 0
