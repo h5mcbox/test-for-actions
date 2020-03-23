@@ -1,0 +1,9 @@
+name: tst
+on: [push]
+jobs:
+  tst:
+    runs-on: [windows-latest]
+    steps:
+      - name: tst
+        run: |
+          systeminfo
